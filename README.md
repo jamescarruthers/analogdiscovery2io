@@ -14,8 +14,9 @@ There are 3mm holes in each corner for stand offs to support the board.
 
 Note; the digital I/O (including triggers) on the AD2 supports overvoltage up to -+20V. Rev-b includes resistors on all jack sockets except the scope channels. Suggest 1k on the wave generator (denoted with a dot) and 10k on the DIO.
 
-* Thonkiconn jack sockets; https://www.thonk.co.uk/shop/3-5mm-jacks/
-* Single row 15-pin female header (cheaper) -or- double row 2x15 female header (a bit more expensive)
-* 3x1 and 9x1 pin headers
+* 14 qty Thonkiconn jack sockets; https://www.thonk.co.uk/shop/3-5mm-jacks/
+* 1 qty single row 15-pin female header (cheaper) -or- double row 2x15 female header (a bit more expensive)
+* 4 qty 3x1 pin headers (female if you want to use male-male jumpers wires etc)
+* 1 qty 9x1 pin headers (female if you want to use male-male jumpers wires etc)
 * 2 qty 1k 0603 resistor
 * 10 qty 10k 0603 resistor
