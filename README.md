@@ -4,14 +4,18 @@
 
 A board to interface anything that uses 3.5mm mono jacks (synthesisers etc) with the Digilent Analog Discovery 2 oscilloscope/wave generator/logic analyser.
 
-Provides access to both scope channels, wave generators, triggers plus DIO 0 to 7 via 3.5mm mono jacks. DIO 8 to 15 and V+/V-/Ground via pin headers. The negative scope channels are connected to ground.
+Provides access to both scope channels, wave generators, triggers plus DIO 0 to 7 via 3.5mm mono jacks. DIO 8 to 15 and V+/V-/Ground via pin headers. The negative differential scope channels are connected to ground.
 
-Connects directly to the AD2 with female headers.
+Note that the wave generator can output -+5V, however the DIO only 3.3V. This board does not implement any kind of level shifting, so if you're testing inputs with the output of the DIO channels then your module needs to work with 3.3V gates/triggers.
 
-3mm holes in each corner for stand offs to support the board.
+Connects directly to the AD2 with female headers. I made this as an edge connector — so you can use a 2x15 or two 1x15 straight headers.
 
-Note: the digital I/O on the AD2 supports overvoltage up to +-20V — and I presume the wave generator DAC is safe behind an opamp. However, use this at your own risk.
+There are 3mm holes in each corner for stand offs to support the board.
+
+Note; the digital I/O (including triggers) on the AD2 supports overvoltage up to -+20V. Rev-b includes resistors on all jack sockets except the scope channels. Suggest 1k on the wave generator (denoted with a dot) and 10k on the DIO.
 
 * Thonkiconn jack sockets; https://www.thonk.co.uk/shop/3-5mm-jacks/
 * Single row 15-pin female header (cheap) -or- double row 2x15 female header (expensive)
 * 3x1 and 9x1 pin headers
+* 2 qty 1k 0603 resistor
+* 10 qty 10k 0603 resistor
