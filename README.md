@@ -1,5 +1,7 @@
 # Interface board for Digilent Analog Discovery 2
 
+[![Join the chat at https://gitter.im/analogdiscovery2io/Lobby](https://badges.gitter.im/analogdiscovery2io/Lobby.svg)](https://gitter.im/analogdiscovery2io/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 **Please note that this is totally untested - will update when confirmed**
 
 A board to interface anything that uses 3.5mm mono jacks (synthesisers etc) with the Digilent Analog Discovery 2 oscilloscope/wave generator/logic analyser.
