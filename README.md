@@ -2,6 +2,8 @@
 
 **Please note that this is totally untested - will update when confirmed**
 
+![Board rev-b](analogdiscoveryIO-rev-b.png)
+
 A board to interface anything that uses 3.5mm mono jacks (synthesisers etc) with the Digilent Analog Discovery 2 oscilloscope/wave generator/logic analyser.
 
 Provides access to both scope channels, wave generators, triggers plus DIO 0 to 7 via 3.5mm mono jacks. DIO 8 to 15 and V+/V-/Ground via pin headers. The negative differential scope channels are connected to ground.
