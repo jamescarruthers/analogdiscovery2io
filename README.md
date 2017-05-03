@@ -1,6 +1,6 @@
 # Interface board for Digilent Analog Discovery 2
 
-**Please note that this is totally untested - will update when confirmed**
+**Rev-a has been tested and confirmed to work, Rev-b has not been tested yet**
 
 ![Board rev-b](analogdiscoveryIO-rev-b.png)
 
